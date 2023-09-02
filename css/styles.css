@@ -98,4 +98,43 @@ blog{
     color: #f33c3c;
     transition: all ease 0.3s;
 }
+@media(max-width:1250px){
+    .blog-box{
+        width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .blog-box{
+        width:70%;
+    }
+}
+@media(max-width:550px){
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding:20px
+    }
+}
+.sidebar{
+   background-color:#3aced0b4;
+   color: #351e1e;
+}
+p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-align: center;
+    color:#ececec
+
+}
+strong{
+    font-size: 40px;
+    font-style: calc(0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#f33c3c;
+}
+
+
 
